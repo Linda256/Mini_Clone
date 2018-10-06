@@ -4,9 +4,9 @@
   "description": "Re-making YouTube with AngularJS",
   "author": "Hack Reactor <curriculum.team@hackreactor.com>",
   "license": "UNLICENSED",
-  "private": true,
   "scripts": {
     "test": "karma start",
+    "start": "live-server",
     "postinstall": "curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash"
   },
   "dependencies": {
